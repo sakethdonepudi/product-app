@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <div className="bg-[#81d9e0] text-white p-6 flex justify-between items-center relative">
-      <h1 className="text-xl font-bold text-black underline absolute left-1/2 transform -translate-x-1/2">Shopping</h1>
+      <h1 className="text-xl font-bold text-black underline absolute left-1/2 transform -translate-x-1/2">Shopping </h1>
       <div className="flex-1"></div>
       <div className="relative text-black">
         <FaShoppingCart size={24} />
