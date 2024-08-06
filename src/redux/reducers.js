@@ -1,4 +1,3 @@
-// src/redux/reducer.js
 const initialState = {
   cart: [],
 };

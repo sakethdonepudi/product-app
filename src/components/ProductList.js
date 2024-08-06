@@ -1,4 +1,3 @@
-// src/components/ProductList.js
 import React, { useEffect, useState } from 'react';
 import { fetchProducts } from '../services/api';
 import ProductModal from './ProductModal';
@@ -50,7 +49,7 @@ const ProductList = () => {
   };
 
   return (
-    <div className="p-4 bg-gray-100 min-h-screen">
+    <div className="p-4 bg-white min-h-screen">
       <ul className="space-y-4">
         {products.map((product) => {
           const inCart = cartItems.find((item) => item.id === product.id);
